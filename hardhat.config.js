@@ -37,6 +37,11 @@ module.exports = {
       accounts:
         process.env.ACCOUNT_KEY !== undefined ? [process.env.ACCOUNT_KEY] : [],
     },
+    polygon: {
+      url: "https://polygon-mainnet.infura.io/v3/7fc8b1e024424a7da9f920edac1b416e",
+      accounts:
+        process.env.ACCOUNT_KEY !== undefined ? [process.env.ACCOUNT_KEY] : [],
+    },
   },
   gasReporter: {
     enabled: process.env.REPORT_GAS !== undefined,

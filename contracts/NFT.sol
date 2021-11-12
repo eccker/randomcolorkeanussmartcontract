@@ -42,7 +42,7 @@ contract NFT is ERC721URIStorage, VRFConsumerBase, Ownable  {
             _VRFCoordinator, 
             _LinkToken
         )
-        ERC721("alfa Random Color Keanus", "alfaRCKS")
+        ERC721("Random Color Keanus", "RCKs")
     {
         tokenCounter = 0;
         keyHash = _keyHash;
@@ -150,7 +150,7 @@ contract NFT is ERC721URIStorage, VRFConsumerBase, Ownable  {
                         bytes(
                             abi.encodePacked(
                                 '{"name": "Random Color Keanus #', uint2str(tokenID),'. ', _name,'", ',
-                                '"description": "Random Color Keanus - Generative Blockchain Art By Rekcce - ', _description,' - Unique Random Number: ',uint2str(_random),' ", ',
+                                '"description": "', _description,' - Random Color Keanus - Generative Blockchain Art By Rekcce - Unique Random Number: ',uint2str(_random),' ", ',
                                 '"attributes": [',
                                     '{',
                                         '  "trait_type": "Base", ',
