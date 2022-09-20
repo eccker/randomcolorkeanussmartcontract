@@ -1,5 +1,5 @@
 # Random Color Keanus Solidity Smart Contract and Development Environment
-This is version 1, realese and deploy at https://randomcolorkeanus.rekcce.online/
+This is version 1
 
 Try running some of the following tasks:
 
